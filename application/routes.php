@@ -32,10 +32,10 @@
 |
 */
 
-Route::get('superwelcome/(:any)/(:any)','account@welcome');
-
+Route::controller('home','home@index');
+Route::controller('about');
+//Route::get('superwelcome/(:any)/(:any)','account@welcome');
 Route::controller('account');
-Route::controller('home');
 /*
 Route::get('/', function()
 {
