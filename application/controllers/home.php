@@ -5,6 +5,7 @@ class Home_Controller extends Base_Controller {
 	public function action_index()
 	{
 		$this->layout->title = 'unrequited love';
+		$this->layout->nest('content', 'home.home');
 	}
 
 	/*
