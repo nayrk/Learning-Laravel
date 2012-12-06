@@ -35,11 +35,13 @@
 Route::get('superwelcome/(:any)/(:any)','account@welcome');
 
 Route::controller('account');
-
+Route::controller('home');
+/*
 Route::get('/', function()
 {
 	return View::make('home.index');
 });
+*/
 
 /*
 |--------------------------------------------------------------------------
